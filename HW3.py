@@ -41,7 +41,7 @@ plt.contourf(x,y,el,cmap = plt.cm.RdBu_r)
 plt.contourf(x,y,el,np.arange(-1,1.2,0.02),  cmap = plt.cm.RdBu_r)
 m.fillcontinents()
 cb = plt.colorbar(orientation='horizontal')
-plt.title('Surface elevation at 1/1/1993 ', fontsize =16 , style ='italic')
+plt.title('Surface elevation in meter at 1/1/1993 ', fontsize =16 , style ='italic')
 
 plt.show()
 plt.savefig('plan_view.png')
